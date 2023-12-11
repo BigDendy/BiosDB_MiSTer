@@ -17,8 +17,9 @@ jobs:
       run: sudo apt-get install detox sharutils
 
     - uses: actions/checkout@v2
+    - uses: fregante/setup-git-user@v2
 
     - name: Build Custom Database for MiSTer Downloader
-      run: set -o pipefail && curl --fail --location https://raw.githubusercontent.com/BigDendy/Downloader_DB-Template_MiSTer/main/.github/build_db.py | python3 -
+      run: set -o pipefail && curl --fail --location https://raw.githubusercontent.com/theypsilon/Downloader_DB-Template_MiSTer/main/.github/build_db.py | python3 -
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
