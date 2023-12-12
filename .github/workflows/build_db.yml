@@ -12,6 +12,10 @@ jobs:
   build_db:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DB_ID: bios_db
+
     steps:
     - name: Install apt-get utilities
       run: sudo apt-get install detox sharutils
@@ -21,5 +25,12 @@ jobs:
 
     - name: Build Custom Database for MiSTer Downloader
       run: set -o pipefail && curl --fail --location https://raw.githubusercontent.com/theypsilon/Downloader_DB-Template_MiSTer/main/.github/build_db.py | python3 -
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Add NeoGeo UniBios
+      run: |
+        if [ ! -f db.json ]; then exit 0; fi
+
+        python3 .github/add_neogeo_unibios.py
+        git add bios_db.json bios_db.json.zip
+        git commit -m "Creating bios_db DB"
+        git push --force origin db
