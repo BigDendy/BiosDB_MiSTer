@@ -33,6 +33,7 @@ games/PSX/boot.rom, https://archive.org/download/mister_bios_pack/PSX.zip/SCPH70
 games/PSX/boot1.rom, https://archive.org/download/mister_bios_pack/PSX.zip/SCPH7000.BIN, 524288, 8e4c14f567745eff2f0408c8129f72a6, bios, overwrite:false,
 games/PSX/boot2.rom, https://archive.org/download/mister_bios_pack/PSX.zip/SCPH7002.BIN, 524288, b9d9a0286c33dc6b7237bb13cd46fdee, bios, overwrite:false,
 games/PSX/sbi.zip, https://archive.org/download/mister_bios_pack/PSX.zip/sbi.zip, 218953, 706d60ab2dfdbfdd53be2069cb85a1fe, bios, overwrite:false,
+games/Saturn/boot.rom, https://ia600809.us.archive.org/16/items/saturn-bios_202503/Bios%20GameNavi%20HiSaturn%201.03.bin, 524288, 0306c0e408d6682dd2d86324bd4ac661, bios, overwrite:false,
 games/SGB/Super Game Boy 2.sfc, https://archive.org/download/mister_bios_pack/SGB.zip/SGB2.sfc, 524288, 8ecd73eb4edf7ed7e81aef1be80031d5, bios,,
 games/SGB/Super Game Boy.sfc, https://archive.org/download/mister_bios_pack/SGB.zip/SGB1.sfc, 262144, b15ddb15721c657d82c5bab6db982ee9, bios,,
 games/SNES/bsx_bios.rom, https://archive.org/download/mister_bios_pack/SNES.zip/BS-X%20BIOS%20%28English%29%20%5BNo%20DRM%5D%20%5B2016%20v1.3%5D.sfc, 1048576, 96cf17bf589fcbfa6f8de2dc84f19fa2, bios, overwrite:false,
