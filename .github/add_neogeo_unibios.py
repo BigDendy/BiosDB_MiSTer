@@ -44,7 +44,7 @@ data['zips'] = {
     "neogeo_unibioscd": {
         "contents_file": {
             "hash": "e2ec14752f65aef00fc33e68cf2fc301",
-            "size": 101498,
+            "size": 381292,
             "url": "http://unibios.free.fr/download/uni-bioscd-33.zip"
         },
         "description": "Extracting NeoGeo CD UniBios from http://unibios.free.fr",
