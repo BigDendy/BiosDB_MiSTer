@@ -1,4 +1,4 @@
-Path, URL, Size in bytes (optional but recommended), MD5 Hash (optional but recommended), Filter Terms (optional)
+Path, URL, Size in bytes (optional but recommended), MD5 Hash (optional but recommended), Filter Terms (optional), Overwrite (optional), Comments (optional)
 games/Astrocade/boot.rom, https://archive.org/download/mister_bios_pack/Astrocade.zip/Bally%20Professional%20Arcade%2C%20Astrocade%20%273159%27%20BIOS%20%281978%29%28Bally%20Mfg.%20Corp.%29.bin, 8192, 7d25a26e5c4841b364cfe6b1735eaf03, bios, overwrite:false,
 games/AtariLynx/boot.rom, https://archive.org/download/mister_bios_pack/AtariLynx.zip/boot.rom, 512, fcd403db69f54290b51035d82f835e7b, bios, overwrite:false,
 games/COCO3/boot0.rom, https://archive.org/download/mister_bios_pack/CoCo3.zip/boot0.rom, 32768, 7233c6c429f3ce1c7392f28a933e0b6f, bios, overwrite:false,
